@@ -70,10 +70,11 @@ header {
 }
 
 footer {
-background-image: url(../img/main/background-footer.png); 
+background-image: url(../img/main/background-footer2.png); 
 background-color: transparent;
 background-repeat: no-repeat;
 background-size: cover;
+border-top: solid 1px var(--surface-color);
 }
 
 
@@ -337,12 +338,11 @@ a:active {
 
 
 #video {
-  
-    max-width: 66%;
+  position: relative;
+  top: -44px;
+    max-width: 60%;
     height: auto;
-    border: 2px solid var(--accent-color);
-    border-radius: var(--radius-sm);
-  }
+      }
 
 
 #contact-me {
@@ -532,6 +532,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 112px;
+    background-color: #FFFFFF;
   
 }
 
@@ -541,7 +542,7 @@ a:active {
     display: grid;
     gap: 1rem 1rem;
     grid-template-columns: repeat(var(--column-count), 1fr);
-        margin-bottom: 112px;
+    margin-bottom: 192px;
     
     
 }
@@ -583,6 +584,11 @@ a:active {
         
 }
 
+.vertical-menu {
+        position: relative;
+    top: 80px;
+}
+
 
 .grid-item {
     width: 100%;
@@ -606,7 +612,7 @@ a:active {
 .space-lg-vertical {
     margin: 0 0 192px 0;
 }
-.space-md-verical {
+.space-md-vertical {
     margin: 64px 0 0px 0;
 }
 
