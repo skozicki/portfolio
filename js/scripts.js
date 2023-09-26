@@ -47,3 +47,6 @@ function menuToggle() {
         $cookiesBanner.remove();
     });
 })();
+
+
+
