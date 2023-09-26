@@ -124,7 +124,9 @@ h5 {
     
 }
 
-
+.h1-project {
+    margin-bottom: 0;
+}
 
 .subtitle {
   color: hsl(0 0% 0% / 0.7);
@@ -165,6 +167,8 @@ p {
 .hero p {
     font-size: var(--text-lg);
 }
+
+
 
 .p-narrow {
     width: 300px;
@@ -615,6 +619,13 @@ a:active {
   
 }
 
+.flex-badge {
+    display: flex;
+    gap: 4px;
+    font-size: var(--text-xs);
+    padding-bottom: 32px;
+}
+
 
 .grid-container {
     --column-count: 1;
@@ -700,16 +711,15 @@ a:active {
 }
 
 .badge {
-   /* border: 1px solid var(--text-color); */
-   border-radius: var(--radius-round);
+      border-radius: var(--radius-round);
    color: var(--pure-white-color);
    background-color: var(--text-color-gray);
    padding: 4px 16px;
    margin: 4px 2px;
    font-size: var(--text-xs);
-   /* font-weight: 700; */
-    }
+      }
 
+  
 
 #statistic {
     display:flex;
