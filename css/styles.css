@@ -52,7 +52,7 @@ html {
 }
 
 body {
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: var(--text-md);
     font-weight: 200;
     line-height: 1.6;
@@ -899,29 +899,6 @@ nav > ul > li > a:active {
   
 
 
-
-
-/* ============================== 
-Accordion
-==============================*/
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ============================== 
 Cookie Banner
 ==============================*/
@@ -972,80 +949,7 @@ Cookie Banner
 
 
 
-/* ============================== 
-Animation 
-==============================*/
 
-/* #pen {
-    animation-duration: 3s;
-    animation-name: pen;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    transform-box: fill-box;
-}
-
-
-@keyframes pen {
-    from {
-    transform: translate(0, -25px) rotate(0deg);
-    }
-    to {
-        transform: translate(0, 50px) rotate(10deg);
-
-    }
-}
-
-#dropbig {
-animation: dropbig 5s infinite alternate linear;
-transform-box: fill-box;
-}
-
-@keyframes dropbig {
-    from {
-transform: rotate(0) translate(-24px, 0);
-    }
-    to {
-transform: rotate(-10deg) translate(-10px, 0);
-    }
-}
-
-#mouse {
-    animation: 5s;
-    animation-name: mouse;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-
-@keyframes mouse {
-    from {
-transform: translate(0, 0)
-    }
-    to {
-transform: translate(-100px, 0);
-    }
-}
-
-#cup {
-    animation: cup 5s infinite alternate linear;
-    transform-box: fill-box;
-}
-
-.cup-shadow {
-    animation: cup 5s infinite alternate linear;
-    transform-box: fill-box;
-}
-
-@keyframes cup {
-    from {
-transform: scale(1);
-    }
-    to {
-transform: scale(1.5);
-    }
- 
-} */
 
 
 
