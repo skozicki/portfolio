@@ -241,7 +241,7 @@ strong {
 }
 
 .img-other {
-    width: auto;
+    width: 100%;
     border-radius: var(--radius-xs, 2rem);
     /* border: 2px solid var(--accent-color); */
     height: auto;
@@ -496,8 +496,8 @@ a:active {
 #additional-text {
     background-color: var(--accent-color);
     color: var(--pure-white-color);
-    padding: 58px 48px 58px 64px;
-    max-width: 587px;
+    padding: 44px 48px 44px 64px;
+    max-width: 400px;
     height: auto;
     position: relative;
     top: -100px;
@@ -673,6 +673,7 @@ a:active {
 
 .center-img-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     /* height: 100vh;  */
