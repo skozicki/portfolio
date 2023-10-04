@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 function menuToggle() {
     var x = document.getElementById('myNavtoggle');
     if (x.className === 'navtoggle') {
