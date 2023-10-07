@@ -501,7 +501,7 @@ a:active {
     height: auto;
     position: relative;
     top: -100px;
-    left: 100px; 
+    left: 30px; 
     border-radius: var(--radius-sm); 
 
 }
