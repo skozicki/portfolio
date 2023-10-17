@@ -1101,7 +1101,7 @@ Large devices (1024px or larger)
     }
 
     .grid-container-3 {
-        --column-count: 3;
+        --column-count: 2;
     }
 
     .grid-col-span-3 {
