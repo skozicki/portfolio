@@ -137,6 +137,8 @@ h5 {
     margin: 0;
 }
 
+
+
 .subtitle {
   color: hsl(0 0% 0% / 0.7);
   font-size: var(--text-lg);
@@ -614,6 +616,7 @@ a:active {
 
 /* Layput styling */
 
+
 .container {
     padding: 64px 32px;
     max-width: 1280px;
@@ -898,18 +901,53 @@ nav > ul > li > a:active {
     
   }
 
-  .full-width-banner {
-          padding: 24px 0;
+  #full-width-banner-1 {
+          padding: 44px 0;
   text-align: center;
-  background-size: auto 900px;
-  position: relative;
-  display: flex;
+  /* background-size: auto 900px;
+  position: relative; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  transition: all 0.3s cubic-bezier(.17, .87, 1, .54);
-  background-color: var(--surface-color);
+  justify-content: center; */
+  /* min-height: 400px;
+  transition: all 0.3s cubic-bezier(.17, .87, 1, .54); */
+  background-image: url(../img/toilet-app/toilet@1x/toilet-banner.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
+
+  #full-width-banner-2 {
+    padding: 44px 0;
+text-align: center;
+/* background-size: auto 900px;
+position: relative; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+/* min-height: 400px;
+transition: all 0.3s cubic-bezier(.17, .87, 1, .54); */
+background-image: url(../img/smashed-bakery-web/smashed@1x/bakery-banner.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#full-width-banner-3 {
+    padding: 44px 0;
+text-align: center;
+/* background-size: auto 900px;
+position: relative; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+/* min-height: 400px;
+transition: all 0.3s cubic-bezier(.17, .87, 1, .54); */
+background-image: url(../img/viaeurasia/eurasia-banner.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
 
 .full-width {
     background-color: var(--surface-color);
@@ -947,9 +985,9 @@ nav > ul > li > a:active {
 }
 
 
-  .banner-content {
+  #banner-content-1 {
     margin: 64px 0;
-    background-image: url(../img/supporting/unnamed.png);
+    background-image: url(../img/toilet-app/toilet@1x/toilet-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
