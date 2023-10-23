@@ -1101,7 +1101,11 @@ Small devices (360px and larger)
         align-items:center;
     }
 
-
+    .container {
+        padding: 24px auto;
+        /* max-width: 1280px;
+        margin: 0 auto; */
+    }
        
 }
 
@@ -1195,6 +1199,13 @@ nav > ul > li {
     justify-content: left;
     align-items:center;
 }
+
+.container {
+    padding: 24px auto;
+    /* max-width: 1280px;
+    margin: 0 auto; */
+}
+
 }
 
 /* ==============================
@@ -1217,7 +1228,11 @@ Large devices (1024px or larger)
     .grid-col-span-3 {
         grid-column: span 3;
     }
-
+    .container {
+        padding: 64px 32px;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
     
     }
    
