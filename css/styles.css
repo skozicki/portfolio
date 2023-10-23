@@ -672,7 +672,7 @@ a:active {
 
 .flex-back {
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: left;
     align-items:center;
 }
@@ -1094,11 +1094,16 @@ Small devices (360px and larger)
         min-width: 100%;
     }
 
-
+    .flex-back {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items:center;
+    }
 
 
        
-
+}
 
 
 
@@ -1183,6 +1188,13 @@ nav > ul > li {
   .item-border {
     min-width: calc(30% - 24px);
   }
+
+  .flex-back {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items:center;
+}
 }
 
 /* ==============================
@@ -1209,7 +1221,7 @@ Large devices (1024px or larger)
     
     }
    
-}
+
 
 
 /* ==============================
