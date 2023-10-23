@@ -411,7 +411,7 @@ a:active {
     color: var(--accent-color);
     text-align: center;
     text-decoration: none;
-    padding: 1em 2em;
+    /* padding: 1em 2em; */
     
 
 }
@@ -421,7 +421,7 @@ a:active {
 
         color: var(--accent-color);
         text-align: center;
-    padding: 1em 2em;
+    /* padding: 1em 2em; */
         transition: 0.2s opacity;
 
 }
@@ -435,10 +435,24 @@ a:active {
     margin: 64px 0 112px 0; 
 }
 
+.container-stats-hero {
+        color: var(--text-color);
+    width: 100%;
+    text-align: center;
+    
+     
+}
+
 .stats {
     text-align: center;
     display: inline-block;
     padding: 0 3rem;
+}
+
+.stats-hero {
+    text-align: left;
+    display: inline-block;
+    
 }
 
 #navigation {
@@ -596,7 +610,7 @@ a:active {
 /* Layput styling */
 
 .container {
-    padding: 32px 32px;
+    padding: 64px 32px;
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -820,6 +834,14 @@ a:active {
     color: var(--pure-white-color);
 }
 
+.statistic-2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+        color: var(--text-color);
+}
+
 .grid-container > h2 {
     margin-top: 0;
 }
@@ -888,6 +910,19 @@ nav > ul > li > a:active {
     background-color: var(--surface-color);
     /* padding: 32px 0; */
     
+}
+
+.full-width-frame {
+    
+    border-bottom: 1px solid var(--surface-color);
+    border-top: 1px solid var(--surface-color);
+    padding: 32px 0 0 0;
+    margin-bottom: 64px;
+    
+}
+
+.full-width-frame > .container {
+        padding: 0px auto;
 }
 
 
