@@ -129,6 +129,8 @@ h5 {
     
 }
 
+
+
 .h1-project {
     margin-bottom: 8px;
     line-height: 1;
@@ -793,6 +795,14 @@ a:active {
     border-radius: var(--radius-md);
    
         
+}
+
+div > .item-border {
+    margin-bottom: 16px;
+}
+
+.grid-container-2 > div > .item {
+    margin-bottom: 16px;
 }
 
 .vertical-menu {

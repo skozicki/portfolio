@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Kozicki UI Porfolio</title>
+    <link href="img/favicon/favicon.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,700;0,6..12,900;1,6..12,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/53c276e98a.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPJ3K496X3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DPJ3K496X3');
+</script>
+</head>
+
+<body>
+    <header>
+        <div class="container-nav">
+            <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html"><img class="logo" src="img/svg/SebastianKozicki-Design-logo.svg"
+                        alt="Sebastian-Kozicki-logo">
+                </a>
+
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="work.html">work</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="#contact" onclick="menuToggle()">contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!--This is HERO section-->
+        <div class="container">
+            <div>
+                <a href="work.html">
+                    <img src="img/svg/arrow_back_24px.svg" alt="arrow" class="img-arrow">
+                </a>
+
+                <h1 class="h1-project">
+                    Fresh look, new adventure
+                </h1>
+                <p class="subtitle">
+                    ViaEurasia application redesign
+                </p>
+            </div>
+            <div>
+                
+                <img src="img/viaeurasia/eurasia-main.jpg" alt="eurasia-app" class="img-other">
+
+                
+            </div>
+        </div>
+
+ 
+            
+        <!--PROJECT OVERVIEW-->
+                
+    <div class="container">
+        <div class="grid-container-2">
+            <h2>Project overview</h2>
+                <p>
+                    Redesign of the existing ViaEurasia application implemented as part of the UI course. The aim was to consider feedback from real users and the creative director of Culture Routes Society and design a new layout for some screens.</p>
+        </div>
+            <div class="flex-item">
+
+                <div class="item">
+                    <h5>Role</h5>
+                    <p>UI designer</p>
+                    <h5>Duration</h5>
+                    <p>2 days</p>
+
+                </div>
+               
+
+                <div class="item">
+                    <h5>User feedback</h5>
+                    <p>Navigation within the app is confusing.</p>
+                        <p>There are more screens than necessary.</p>
+                        <p>The branding and color feel dated and unsophisticated, and they don’t follow accessibility guidelines.</p>
+
+                </div>
+
+                <div class="item">
+                    <h5>Goal</h5>
+                    <p>Make changes following user feedback and guidelines from the creative director.</p>
+                </div>
+                <div class="item">
+                    <h5>Creative director notes</h5>
+                    <p>The app’s “Home” page looks like a legal document and is uninviting. 
+                        Experiment by moving the sponsor logos and information to the “About” page. 
+                        The layout of the “About” page should then be reorganized to make it more visually appealing.</p>
+                        
+                        <p>Once all the legal text and sponsor logos have been removed from the “Home” page, 
+                        design a new logo and create an impactful “Welcome” page (to replace “Home”).</p>
+
+                        <p>Remove the “Check Before You Go” page and replace it with a new menu that includes 
+                        the same 3 button topics (Route Updates, Weather, Guide Book).</p>
+
+                        <p>Via Eurasia’s brand typeface is Inter, which you shouldn’t change. You can, however, 
+                        adjust the size and weight of the text on each page to create a better hierarchy 
+                        and improve accessibility.</p>
+
+                        <p>Not every Frame needs a complete redesign, but they should all be improved from 
+                        an accessibility standpoint. You might choose to keep the same layout for 
+                        “Routes,” “Route Detail,” or “Points of Interest” and just update the brand 
+                        colors to comply with accessibility best practices, for instance.</p>
+                </div>
+               
+            </div>
+                    
+    </div> 
+    
+   
+      
+                            
+                    
+    <!--LOW & MID FIDELITY WIREFRAMES-->
+    
+    <div class="container">
+        <div class="grid-container-2">
+            <h2>Rebuilding screen by screen</h2>
+            <p>
+                Below I present 6 screens that I redesigned along with descriptions of what was changed and why.</p>
+        </div>
+    
+    
+    
+    <div class="grid-container-2">
+
+        <div>
+            <img src="img/viaeurasia/home-screen-viaeurasia.png" alt="home-screen-viaeurasia">
+        </div>
+
+
+        <div>
+            <h4>
+                Modifications HOME SCREEN:
+            </h4>
+            <div class="flex-item-border">
+                <p class="item-border">change the background color to light</p>
+                <p class="item-border">correcting the logo </p>
+                <p class="item-border">adding a greeting </p>
+                <p class="item-border">removal of disclaimer and sponsors' logos (moved to About us page)</p>
+                <p class="item-border">changed the location of EU flags and information</p>
+                <p class="item-border">changed the color and size of the button.</p>
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Readability:</strong> A light background better exposes the logo, name of the app and greeting.<br> 
+        <strong>Aesthetics:</strong>I chose orange (a color of energy and activity) for the buttons and other elements to be emphasized.
+        With a uniform ground and a color scheme in the range of white and light gray, it will be very easy to introduce a possible dark mode, 
+        which is trendy and valuable at present (2023). Plus, it's giving the app a modern minimalist look. 
+        The overall look of the app was modeled on the new version of Airbnb, which is getting rave reviews from designers.<br>
+        <strong>Bonus:</strong>The size of the EU logos was verified with the EU requirements for project marking.
+    </p>
+</div>
+
+<div class="container">
+
+    <div class="grid-container-2">
+
+        <div>
+            <img src="img/viaeurasia/routes-screens-viaeurasia.png" alt="home-screen-viaeurasia">
+        </div>
+
+
+        <div>
+            <h4>
+                Modifications ROUTS SCREEN:
+            </h4>
+            <div class="flex-item-border">
+                <p class="item-border">change of top navigation</p>
+                <p class="item-border">roads as cards</p>
+                <p class="item-border">introduced background color + subtle graphics</p>
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Easy navigation:</strong> I decided to use only the top navigation as a tab to minimize 
+        the number of navigation elements that could confuse the user with such a simple design.<br> 
+        <strong>Usability:</strong> I introduced the acronym "POI" (point of interest), 
+        commonly used in applications with routing capabilities or a database of default routes. 
+        Also, I have dropped the arrow suggesting the length of the route due to the lack of common use 
+        of this element in other travel apps.<br>
+        <strong>Design:</strong> The entire app has a solid background with slight graphics 
+        from the logo - a subtle way of branding the app; thanks to the divergent darker background, the white card maintain the principle “the light comes from above.”
+    </p>
+
+</div>
+
+<div class="container">
+
+    <div class="grid-container-2">
+
+        <div>
+            <img src="img/viaeurasia/more-screens-viaeurasia.png" alt="home-screen-viaeurasia">
+        </div>
+
+
+        <div>
+            <h4>
+                Modifications MORE SCREEN:
+            </h4>
+            <div class="flex-item-border">
+                <p class="item-border">using the 3 tab as a collecting element for items that are not roads and POIs</p>
+                <p class="item-border">creation of a pull-out drawer at the bottom of the screen for 3 buttons and other settings</p>
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Easy navigation:</strong> To avoid adding a burger/kebab menu, I created a third item in the top navigation:
+         MORE, as a drawer. Clicking on each item will take you to a particular screen from which, 
+         via the "back arrow," the user will return to the ROUTS screen. I also added an overlay to 
+         highlight the contents of the drawer better.<br> 
+        <strong>Readability:</strong> I also added an overlay to 
+        highlight the contents of the drawer better.<br>
+        <strong>Design:</strong> The icons are supportive and enhance the aesthetic experience.
+    </p>
+
+</div>
+
+<div class="container">
+
+    <div class="grid-container-2">
+
+        <div>
+            <img src="img/viaeurasia/more-screens-viaeurasia.png" alt="home-screen-viaeurasia">
+        </div>
+
+
+        <div>
+            <h4>
+                Modifications ROUTE DETAIL SCREEN:
+            </h4>
+            <div class="flex-item-border">
+                <p class="item-border">adjusting the color scheme to the new layout</p>
+                <p class="item-border">improving text readability</p>
+                    <p class="item-border">rescaling the map to fit in with other elements</p>
+                    <p class="item-border">adding a button for the map view - 
+                        previously the map had no interactivity</p>
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Usability:</strong> Isolating the button along with the distance information 
+        is a proven way to increase the chances of the user using this functionality.<br> 
+        <strong>Readability:</strong> Increasing the interline in the body copy provides better readability.<br>
+        <strong>Design:</strong> Introducing margins for the map image is a consistency across the app 
+        behavior, just like introducing a white background for the top navigation.
+    </p>
+
+</div>
+
+<div class="container">
+
+    <div class="grid-container-2">
+
+        <div>
+            <img src="img/viaeurasia/poi-screens-viaeurasia.png" alt="home-screen-viaeurasia">
+        </div>
+
+
+        <div>
+            <h4>
+                Modifications POI SCREEN:
+            </h4>
+            <div class="flex-item-border">
+                <p class="item-border">added a search bar</p>
+                <p class="item-border">chang the regular list to a list built from tabs</p>
+                    <p class="item-border">
+                        unified icons and changed their size</p>
+                   
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Usability:</strong> I didn't understand where the filtering results came from, 
+        so I permanently made the search bar with the filtering option (icon on the right) on this screen. 
+        Leaving the bar on the search results page will allow the user to change their search preferences more easily - he will not have to go to this screen to adjust search parameters.<br> 
+        <strong>Readability:</strong> 
+        Enlarging icons to emphasize the convenience of a given location.<br>
+        <strong>Design:</strong> Introducing cards with basic-level elevation is a behavior-consistent 
+        layout with a more attractive appearance than the usual list. In addition, 
+        I have changed the typography hierarchy to emphasize the names of the searched places, but perhaps the distance issue should be more critical. Icons were given an orange to make the eye naturally wander in their direction.
+    </p>
+
+</div>
+
+<div class="container">
+
+    <div class="grid-container-2">
+
+        
+            <img src="img/viaeurasia/about-screens-viaeurasia.png" alt="home-screen-viaeurasia">
+        
+
+
+        <div>
+            <h4>
+                Modifications ABOUT SCREEN:
+            </h4>
+            <div>
+                <p class="item-border">rescaling the map</p>
+                <p class="item-border">adjustment to the new layout</p>
+                <p class="item-border">adding foot icons as new pagination</p>
+                <p class="item-border">dividing the content into 3 parts - the option of expanding and collapsing the section</p>
+                   
+            </div>
+         
+        </div>
+        
+        
+                           
+    </div>
+    <h4>Design decisions
+    </h4>
+ 
+    <p>
+        <strong>Usability:</strong> Dividing content into drop-down sections gives the user power over what is displayed at any given time, so he can choose what he wants to read first and not scroll endlessly through the screen<br> 
+        <strong>Readability:</strong> Increasing text readability by increasing line hight.<br>
+        <strong>Design:</strong> Introducing foot pagination is another way of branding the product and introducing a bit of "fun". As suggested, the sponsors' logos and the disclaimer from HOME have been placed here as separate sections.
+    </p>
+
+</div>
+
+<div class="container">
+    <video playsinline autoplay muted loop id="video" >
+        <source src="video/viaeurasia-app.mp4" type="video/mp4">
+    </video>
+</div>
+
+    
+    
+                      
+
+<!--SUMMARY-->
+    
+    <div class="container">
+
+            
+                <h2>Let's see if I achieve the goal</h2>
+          
+        <div class="grid-container-2">
+        
+                <div>
+                    
+                    <div class="item">
+                        <h5>User feedback</h5>
+                        <p>A. Navigation within the app is confusing.</p>
+                        <p>B. There are more screens than necessary.</p>
+                        <p>C. The branding and color feel dated and unsophisticated, and they don’t follow accessibility guidelines.</p>
+    
+                    </div>
+                    <div>
+                        <h5>How I used user feedback
+                        </h5>
+                        <p class="item-border"><strong>A:</strong> Introduction more intuitive navigation.<br>
+                            <strong>A, B:</strong> Introduction of MORE tab and drawer.<br>
+                            <strong>C:</strong> Change the color scheme and use one color as an accent; 
+                            <br>Improving readability by adjusting colors with an appropriate contrast ratio, improving typography and line hight. <br>
+                      
+                    </p>
+                    </div>
+                    <img src="img/viaeurasia/winner.png" alt="home-screen-viaeurasia">
+
+                </div>
+            <div>
+                    <div class="item">
+                        <h5>Creative director notes</h5>
+                        <p>A. The app’s “Home” page looks like a legal document and is uninviting. 
+                            Experiment by moving the sponsor logos and information to the “About” page. 
+                            The layout of the “About” page should then be reorganized to make it more visually appealing.</p>
+                            
+                            <p>B. Once all the legal text and sponsor logos have been removed from the “Home” page, 
+                            design a new logo and create an impactful “Welcome” page (to replace “Home”).</p>
+    
+                            <p>C. Remove the “Check Before You Go” page and replace it with a new menu that includes 
+                            the same 3 button topics (Route Updates, Weather, Guide Book).</p>
+    
+                            <p>D. Via Eurasia’s brand typeface is Inter, which you shouldn’t change. You can, however, 
+                            adjust the size and weight of the text on each page to create a better hierarchy 
+                            and improve accessibility.</p>
+    
+                            <p>E. Not every Frame needs a complete redesign, but they should all be improved from 
+                            an accessibility standpoint. You might choose to keep the same layout for 
+                            “Routes,” “Route Detail,” or “Points of Interest” and just update the brand 
+                            colors to comply with accessibility best practices, for instance.</p>
+                    </div>
+
+                    
+
+                    <div>
+                       
+                        <h5>
+                            How I ensured compliance with creative director directives
+                        </h5>
+                        <p class="item-border">
+                            <strong>A:</strong> Moved the suggested elements, improving the logo, changed the color scheme; 
+                            Use accordion for About screen to reduce scrolling and give a lighter look.<br>
+                            <strong>B:</strong> Creating a Welcome screen.<br>
+                            <strong>C:</strong> Adding the drawer.<br>
+                            <strong>D:</strong> Create a style sheet for typography and apply it consistently throughout the application. 
+                            Unification of the entire application according to the established typography color scale and new navigation.<br>
+                            <strong>E:</strong> To maintain consistency in the project, other screens have also been redesigned.
+                        </p>
+                        
+                    </div>
+                 
+            </div>
+                
+                
+                                   
+            
+
+        </div>
+
+        <h4>Aspects that were a challenge in this project:</h4>
+        <p><strong>Searching for solutions for specific needs</strong> - on the one hand, it is sometimes difficult to limit yourself to only the guidelines. 
+            Still, on the other hand, the limitations allow you to achieve your goals in a given time.
+                                </p>
+        <p><strong>Simple and logical structure</strong> - sometimes the simple solutions are the hardest to solve.
+                                    </p>
+                                    <p><strong>The irresistible desire to add more functionalities</strong> - this is entirely unjustified in the business world because it generates additional costs and wastes time.
+                                    </p>
+    
+                  
+    </div>
+                
+
+        
+        <!--BANNER-->
+        <!-- <div id="full-width-banner-3">
+            <div>
+                <a href="#" class="btn-primary-normal">Next</a>
+                <h4>ViaEurasia App</h4>
+                
+            </div>
+        </div> -->
+
+
+
+
+
+
+</main>
+
+
+
+    <footer id="contact">
+
+        <div class="container">
+            <div class="footer-container">
+                <div id="contact-me">
+                    <h5>
+                        Let's stay in touch
+                    </h5>
+                    <p class="text-footer">
+                        Do you like my work? Don't hesitate and just</p>
+                    <div>
+                        <a class="btn-secondary-normal" href="mailto:sebastian.kozicki1@gmail.com">Send an email</a>
+                    </div>
+                    <p class="text-footer">or catch me on social media</p>
+
+                    <!--Social Media-->
+                    <div>
+
+                        <a href="https://www.behance.net/sebastiankozicki" target="_blank">
+                            <img class="social" src="img/svg/behance-icon.svg" alt="behance">
+                        </a>
+                        <a href="https://www.linkedin.com/in/sebastian-kozicki/" target="_blank">
+                            <img class="social" src="img/svg/linkedi-icon.svg" alt="linkedin">
+                        </a>
+
+                    </div>
+                    
+                </div>
+               
+              
+
+            </div>
+            <div>
+                <p class="text-xs">Copyright&copy; Sebastian Kozicki 2023</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
