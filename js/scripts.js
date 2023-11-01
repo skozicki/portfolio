@@ -46,7 +46,7 @@ function menuToggle() {
 
     $cookiesBannerButton.addEventListener("click", () => {
         setCookie(cookieName, "closed");
-        $cookiesBanner.remove();
+        $cookiesBanner.classList.add("hidden");
     });
 })();
 

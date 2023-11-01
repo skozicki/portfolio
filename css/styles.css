@@ -1323,3 +1323,7 @@ X-large devices (1440px or larger)
 
         
     }
+
+.cookies-eu-banner.hidden {
+    display: none;
+}
