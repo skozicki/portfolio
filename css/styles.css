@@ -1028,7 +1028,7 @@ Before After Slider
   
   .container-2 {
     position: relative;
-    width: 900px;
+    width: 1280px;
     height: 600px;
     border: 2px solid white;
     /* margin: 0;
@@ -1043,7 +1043,7 @@ Before After Slider
     left: 0;
     width: 100%;
     height: 100%;
-    background-size: 900px 100%;
+    /* background-size: 900px 100%; */
   }
   .container-2 .background-img {
     background-image: url("../img/viaeurasia/poi-after.png");
