@@ -1174,6 +1174,10 @@ Small devices (360px and larger)
         /* max-width: 1280px;
         margin: 0 auto; */
     }
+
+    .container-2 {
+        display: none;
+    }
        
 }
 
@@ -1273,6 +1277,10 @@ nav > ul > li {
     padding: 24px auto;
     /* max-width: 1280px;
     margin: 0 auto; */
+}
+
+.container-2 {
+    display: flex;
 }
 
 }
