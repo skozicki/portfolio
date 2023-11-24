@@ -1154,12 +1154,12 @@ Small devices (360px and larger)
         }
 
         .item {
-            min-width: 100%;
+            min-width: auto;
 
        }
 
        .item-border {
-        min-width: 100%;
+        min-width: auto;
     }
 
     .flex-back {
