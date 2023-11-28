@@ -960,6 +960,22 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+#full-width-banner-4 {
+    padding: 44px 0;
+text-align: center;
+/* background-size: auto 900px;
+position: relative; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+/* min-height: 400px;
+transition: all 0.3s cubic-bezier(.17, .87, 1, .54); */
+background-image: url(../img/wordpress/wordpress-banner.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .full-width {
     background-color: var(--surface-color);
     /* padding: 32px 0; */
