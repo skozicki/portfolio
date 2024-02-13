@@ -1216,6 +1216,10 @@ Small devices (360px and larger)
     .flex-item {
         flex-direction: column;
     }
+
+    .flex-item-border {
+        flex-direction: column;
+    }
        
 }
 
@@ -1322,6 +1326,10 @@ nav > ul > li {
 }
 
 .flex-item {
+    flex-direction: row;
+}
+
+.flex-item-border {
     flex-direction: row;
 }
 
