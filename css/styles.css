@@ -976,6 +976,24 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+#full-width-banner-5 {
+    padding: 44px 0;
+text-align: center;
+/* background-size: auto 900px;
+position: relative; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+/* min-height: 400px;
+transition: all 0.3s cubic-bezier(.17, .87, 1, .54); */
+background-image: url(#);
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.5 ;
+}
+
+
 .full-width {
     background-color: var(--surface-color);
     /* padding: 32px 0; */
