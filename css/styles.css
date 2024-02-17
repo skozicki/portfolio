@@ -447,6 +447,10 @@ a:active {
      
 }
 
+.container-narrow {
+    max-width: 400px;
+}
+
 .stats {
     text-align: center;
     display: inline-block;
@@ -991,6 +995,20 @@ background-size:contain;
 background-repeat: no-repeat;
 background-position: center;
 opacity: 0.5 ;
+}
+
+.full-width-banner-6 {
+    /* padding: 64px 0; */
+    max-height:fit-content;
+/* background-color: #D55F24; */
+/* background-size: cover;
+background-repeat: no-repeat;
+background-position: center; */
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
 }
 
 
