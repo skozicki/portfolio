@@ -610,7 +610,7 @@ a:active {
   }
 
   .hero_gradientText {
-    background-image: linear-gradient(90deg,#6e48ff 0,#cf40ff 48%,#ffa22c);
+    background-image: linear-gradient(90deg,#802085 0,#cf40ff 48%,#fdf105);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
