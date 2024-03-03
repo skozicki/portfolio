@@ -259,7 +259,7 @@ strong {
 .img-style {
     width: 100%;
     border-radius: var(--radius-xs, 2rem);
-    border: 2px solid var(--accent-color);
+    /* border: 2px solid var(--accent-color); */
     transition: width 1s, height 1s, transform 1s;
 }
 
@@ -267,8 +267,8 @@ strong {
     width: 100%;
     border-radius: var(--radius-xs, 2rem);
     border: none;
-    transform: scale(1.2);
-    transition-timing-function: ease 2s;
+    transform: scale(1.1);
+    transition-timing-function: ease 1s;
 }
 
 .img-gallery {
@@ -542,6 +542,10 @@ background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(91,22,95,1) 60%, rgba(
 #additional-text p {
     font-size: var(--text-lg);
         padding-bottom: 0;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 13px rgba(0,0,0,.1);
 }
 
 
